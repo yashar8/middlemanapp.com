@@ -102,4 +102,20 @@
   </section>
 
   <%= partial "partials/logos" %>
+
+  <div class="c-sponsor-section">
+    Sponsored by
+
+    <a href="https://formkeep.com?utm_source=middleman">
+      <%= image_tag(
+        "/images/formkeep-logo.svg",
+        alt: "FormKeep",
+        class: "logo"
+      ) %>
+
+      <p class="tagline">
+        Form endpoints for Middleman sites.
+      </p>
+    </a>
+  </div>
 </div>
